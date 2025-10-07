@@ -45,3 +45,4 @@ class DragPointMass(BaseModel):
         dsds = 1.0
         dvds = (u - CdA * v**2) / (m * v)
         return np.array([dsds, dvds])
+
